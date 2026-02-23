@@ -35,18 +35,21 @@ SUBSCRIBERS = [
         "active": True,
         "strategy": "ALL"              # receives all alerts
     },
-    {
-        "name": "Friend 1",
-        "chat_id": "FRIEND1_CHAT_ID",  # ← Replace with friend's chat ID
-        "active": True,
-        "strategy": "ALL"
-    },
-    {
-        "name": "Friend 2",
-        "chat_id": "FRIEND2_CHAT_ID",  # ← Replace with friend's chat ID
-        "active": False,               # ← Disabled — won't receive alerts
-        "strategy": "SIB"             # only receives SIB alerts
-    },
+  
+  #  {
+   #     "name": "Friend 1",
+    #    "chat_id": "FRIEND1_CHAT_ID",  # ← Replace with friend's chat ID
+     #   "active": True,
+      #  "strategy": "ALL"
+    #},
+  
+   # {
+    #    "name": "Friend 2",
+     #   "chat_id": "FRIEND2_CHAT_ID",  # ← Replace with friend's chat ID
+      #  "active": False,               # ← Disabled — won't receive alerts
+       # "strategy": "SIB"             # only receives SIB alerts
+    #},
+  
     # ── Add more people below this line ──
     # {
     #     "name": "Friend 3",

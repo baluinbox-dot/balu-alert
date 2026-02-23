@@ -63,7 +63,7 @@ SUBSCRIBERS = [
 # 🔐 SECRET KEY — TradingView will send this
 # to verify the request is from you
 # ─────────────────────────────────────────────
-SECRET_KEY = os.environ.get("SECRET_KEY", "mysecretkey123")
+SECRET_KEY = os.environ.get("SECRET_KEY", "12345")
 
 
 def send_telegram_message(chat_id, text):

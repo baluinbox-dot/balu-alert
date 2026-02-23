@@ -35,13 +35,13 @@ SUBSCRIBERS = [
         "active": True,
         "strategy": "ALL"              # receives all alerts
     },
-  
-  #  {
-   #     "name": "Friend 1",
-    #    "chat_id": "FRIEND1_CHAT_ID",  # ← Replace with friend's chat ID
-     #   "active": True,
-      #  "strategy": "ALL"
-    #},
+
+    {
+       "name": "Friend 1",
+        "chat_id": "7208909257",  # ← Replace with friend's chat ID
+        "active": True,
+        "strategy": "ALL"
+    },
   
    # {
     #    "name": "Friend 2",
